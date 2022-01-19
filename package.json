@@ -1,0 +1,28 @@
+{
+  "name": "myblog-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js --exec babel-node -e js",
+    "debug": "set DEBUG=express:* & nodemon ./src/server.js --exec babel-node -e js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.2.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "file-loader": "^6.2.0",
+    "mongodb": "^4.3.0",
+    "mongoose": "^6.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.10",
+    "nodemon": "^2.0.15"
+  }
+}
